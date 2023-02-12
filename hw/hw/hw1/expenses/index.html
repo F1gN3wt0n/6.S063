@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/holiday.css@0.9.8" />
+  <title>Google Sheet Issues</title>
+</head>
+<body>
+  <header>
+    <h1>Spreadsheet Issues Page</h1>
+  </header>
+  <nav>
+    <ul>
+      <li>Issues</li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Usability problems with the current spreadsheet</h2>
+    <ol>
+      <li>"Variables" column is a repetition of "[Neo/Trinity] owes" column. While it will show a negative number when Trinity owes Neo, this is already communicated by the former column and the two can therefore be combined.</li>
+      <li>Currencies other than dollars are directly converted to dollars (ex: entry of €50 turns into $50). This means that the couple's calculations will be incorrect because they assume dollar amounts without taking into account conversion rates.</li>
+      <li>The first two columns are used in two differet situations. Although the two situations grouped together have the same outcome (ex: whether Trinity pays for the joint account or the joint account pays for Neo, Neo will still owe Trinity), this can be confusing to the person reading the spreadsheet at first.</li>
+      <li>Some expenses have dates and others do not.</li>
+      <li>Date formatting is non-standard and in the same column as the name/description of the expense, which can be confusing.</li>
+      <li>Names of repeated expenses are non-standard; sometimes emojis are used, which could be an accessibility issue.</li>
+      <li>The person who payed the expense is implied by the column, but not explicitly recorded anywhere in the spreadsheet.</li>
+      <li>When owed expenses are paid, they have to be deleted from the spreadsheet and there remains no record of them.</li>
+    </ol>
+  </main>
+  <footer>
+    © 2023 Daniel Figgis Gonzalez
+  </footer>
+</body>
+</html>
