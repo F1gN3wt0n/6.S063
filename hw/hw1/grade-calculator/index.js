@@ -26,9 +26,6 @@ let app = createApp({
 			let sum = 0;
 
 			for (let hw of this.homeworks) {
-				if (hw === null) continue;
-				hw = parseInt(hw);
-
 				// Check that it is a number, and the number is non-negative
 				if (hw >= 0) {
 					sum += hw;
